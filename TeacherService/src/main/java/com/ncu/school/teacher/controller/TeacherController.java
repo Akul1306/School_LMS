@@ -29,6 +29,7 @@ public String getTeacher(@RequestParam ("teacherName") String teacherName){
     return("hello from " + teacherName);
 }
 
+<<<<<<< HEAD
 
 @GetMapping("/teacher")
 public String getName(@RequestParam ("teacherName") String teacherName){
@@ -42,6 +43,8 @@ public String getName1(@RequestParam ("teacherNameee") String teacherName){
     return("hello from " + teacherName);
 
 }
+=======
+>>>>>>> akul
 }
 
 
