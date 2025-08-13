@@ -34,6 +34,14 @@ public String getTeacher(@RequestParam ("teacherName") String teacherName){
 public String getName(@RequestParam ("teacherName") String teacherName){
     System.out.println("hello from  " + teacherName);
     return("hello from " + teacherName);
+
+}
+@GetMapping("/teacher1")
+public String getName1(@RequestParam ("teacherNameee") String teacherName){
+    System.out.println("hello from  " + teacherName);
+    return("hello from " + teacherName);
+
 }
 }
+
 
